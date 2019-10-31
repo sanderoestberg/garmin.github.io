@@ -1,0 +1,341 @@
+@media screen and (min-width: 640px) and (max-width: 810px) {
+  #Rmarker {
+    width: 30px;
+    height: 30px;
+    transform: translate(1500%, 1700%);
+    z-index: 2;
+    margin: 0%;
+    height: auto;
+    position: relative;
+  }
+
+  #hjerterunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #mandrunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #popdel2 {
+    margin-top: -22%;
+  }
+
+  .teamname {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    transform: translatex(15px);
+  }
+
+  button {
+    margin-top: 10%;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #007cc2 5%, #007cc2 100%);
+    background-color: #121a81;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+  }
+  .Button:hover {
+    background: linear-gradient(to bottom, #46474a 5%, #46474a 100%);
+    background-color: #1e62d0;
+  }
+  .Button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .buttonpop {
+    transform: translate(33px, -60px);
+    width: 70%;
+  }
+
+  #fullname {
+    color: whitesmoke;
+    transform: translate(33px, 0px);
+    background-color: #007cc3;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  #runnerpopup {
+    margin: 0%;
+    background-color: rgb(254, 254, 254);
+    width: 28%;
+    height: 240px;
+    align-content: center;
+    margin-left: 0;
+    visibility: hidden;
+    z-index: 2;
+    position: fixed;
+    transform: translate(300px, 400px);
+  }
+
+  .mystyle {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .map {
+    z-index: -2;
+  }
+
+  .sidebar {
+    z-index: -2;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #Rmarker {
+    width: 30px;
+    height: 30px;
+    transform: translate(50px, 180px);
+    z-index: 2;
+    margin: 0%;
+    height: auto;
+    position: relative;
+  }
+
+  #hjerterunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #mandrunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #popdel2 {
+    margin-top: -22%;
+  }
+
+  .teamname {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    transform: translatex(15px);
+  }
+
+  button {
+    margin-top: 10%;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #007cc2 5%, #007cc2 100%);
+    background-color: #121a81;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+  }
+  .Button:hover {
+    background: linear-gradient(to bottom, #46474a 5%, #46474a 100%);
+    background-color: #1e62d0;
+  }
+  .Button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .buttonpop {
+    transform: translate(33px, -60px);
+    width: 70%;
+  }
+
+  #fullname {
+    color: whitesmoke;
+    transform: translate(33px, 0px);
+    background-color: #007cc3;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  #runnerpopup {
+    margin: 0%;
+    background-color: rgb(254, 254, 254);
+    width: 60%;
+    height: 240px;
+    align-content: center;
+    margin-left: 0;
+    visibility: hidden;
+    z-index: 2;
+    position: fixed;
+  }
+
+  .mystyle {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .map {
+    z-index: -2;
+  }
+
+  .sidebar {
+    z-index: -2;
+  }
+
+  .navigation {
+    height: 20%;
+  }
+}
+
+@media screen and (min-width: 810px) and (max-width: 2200px) {
+  /* STYLES HERE */
+
+  #Rmarker {
+    width: 30px;
+    height: 30px;
+    transform: translate(2700%, 1700%);
+    z-index: 2;
+    margin: 0%;
+    height: auto;
+    position: relative;
+  }
+
+  #hjerterunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #mandrunner {
+    width: 15%;
+    transform: translate(40px, -45px);
+    z-index: 99;
+    margin: 0%;
+    height: 30px;
+  }
+
+  #popdel2 {
+    margin-top: -22%;
+  }
+
+  .teamname {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    transform: translatex(15px);
+  }
+
+  button {
+    margin-top: 10%;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #007cc2 5%, #007cc2 100%);
+    background-color: #121a81;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+  }
+  .Button:hover {
+    background: linear-gradient(to bottom, #46474a 5%, #46474a 100%);
+    background-color: #1e62d0;
+  }
+  .Button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .buttonpop {
+    transform: translate(33px, -60px);
+    width: 70%;
+  }
+
+  #fullname {
+    color: whitesmoke;
+    transform: translate(33px, 0px);
+    background-color: #007cc3;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  #runnerpopup {
+    margin: 0%;
+    background-color: rgb(254, 254, 254);
+    width: 20%;
+    height: 240px;
+    align-content: center;
+    margin-left: 0;
+    visibility: hidden;
+    z-index: 2;
+    position: fixed;
+    transform: translate(550px, 305px);
+  }
+
+  .mystyle {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+  .marker .mapboxgl-marker {
+    will-change: inherit;
+  }
+  .mapboxgl-marker {
+    will-change: none;
+  }
+
+  .map {
+    z-index: -2;
+  }
+
+  .sidebar {
+    z-index: -2;
+  }
+
+  mapboxgl-canvas > .marker mapboxgl-marker mapboxgl-marker-anchor-center {
+    transform: translate(-50%, -50%) translate(500px, 242px);
+  }
+}

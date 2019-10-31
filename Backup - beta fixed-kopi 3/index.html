@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="mstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+
+
+
+  <body>
+
+
+      <section class="oversigt">
+          <div class="lober-oversigt">
+              <ul>
+                     <a class="lob-track" onclick="myFunction();"><li>Jesper Larsen</li></a>
+                     <a class="lob-track" href="#"><li>Karen Iversen</li></a>
+                     <a class="lob-track" href="#"><li>Inger Hansen</li></a>
+                     <a class="lob-track" href="#"><li>Rigmor Ann</li></a>
+                     <a class="lob-track" href="#"><li>Jesson Østerberg</li></a>
+              </ul>
+         </div> 
+ 
+             <nav class="navigation">
+     
+                 <a href="index.html"><img id="arrow"src="imges/arrow.svg" alt="tilbage" width="30%"> </img></a>
+                 <a href="livefeed.html"><img id="feed"src="imges/livefeed.svg" alt="livefeed" width="30%"></img></a>
+                 <a href="#"><img id="lober" src="imges/running-man.png" alt="loberen" width="27%"></img></a>
+                 <a href="info.html"><img id="info"src="imges/info.svg" alt="info" width="30%"></img></a>
+       
+             </nav>
+
+ </section>
+
+    <img id="Topimage" src="/images/garmintop.jpg" alt="" />
+    <img
+      id="Rmarker"
+      src="/garmin-runner.svg"
+      alt="Lilleikontilløb"
+      onclick="myFunction();"
+    />
+
+    <div id="runnerpopup">
+      <h1 id="fullname" class="teamname">Jesper Larsen</h1>
+      <h4 class="teamname">team spartans</h4>
+      <div id="popdel1">
+        <h2 id="bpm"></h2>
+        <img id="hjerterunner" src="/Ikoner/puls-orange.png" alt="hjerte" />
+      </div>
+      <div id="popdel2">
+        <h2 id="km"></h2>
+        <img id="mandrunner" src="/Ikoner/running-man.png" alt="runner" />
+      </div>
+      <button class="buttonpop" onclick="window.location.href='person.html'">
+        Se mere..
+      </button>
+    </div>
+    <div class="sidebar">
+      <div class="heading">
+        <h1>Forhindringer</h1>
+      </div>
+      <div id="listings" class="listings"></div>
+    </div>
+    <div id="map" class="map pad2">Map</div>
+
+    <script src="/js/main.js" charset="utf-8"></script>
+    <script src="/js/js.js"></script>
+  </body>
+</html>

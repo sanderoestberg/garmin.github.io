@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+}
+
+/*----------------Livefeeds----------------*/
+section {
+  width: 100%;
+}
+
+.video-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.zoner {
+  width: 100%;
+  color: #007cc3;
+  font-size: 1em;
+}
+
+.zoner video {
+  width: 100%;
+}
+
+/*----------------Menu----------------*/
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: white;
+  z-index: 99;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation #arrow #feed #lober #info {
+  text-decoration: none;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.navigation a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#lober {
+  margin-top: 5px;
+}
+
+/*----------------oversigt liste af løberne----------------*/
+
+.oversigt {
+  display: flex;
+  flex-direction: row;
+}
+
+.lober-oversigt {
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #f1f1f1;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  background: white;
+  position: fixed;
+  bottom: 10vh;
+  right: 0;
+  line-height: 45px;
+  color: #999;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 99;
+}
+.lober-oversigt ul {
+  margin: 0;
+  padding: 0;
+}
+.lober-oversigt li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+}
+.lober-oversigt li:hover {
+  display: block;
+  background: #007cc3;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+}
+
+.lober-oversigt a {
+  text-decoration: none;
+  color: #666;
+}
+
+@media screen and (min-width: 810px) and (max-width: 2200px) {
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+  }
+
+  .lober-oversigt {
+    transform: translatey(-50px);
+  }
+}
