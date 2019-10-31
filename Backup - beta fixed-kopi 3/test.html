@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link rel="stylesheet" type="text/css" href="mstyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <img
+      id="Rmarker"
+      src="/garmin-runner.svg"
+      alt="Lilleikontilløb"
+      onclick="myFunction();"
+    />
+
+    <div id="runnerpopup">
+      <h1 id="fullname" class="teamname">Jesper Larsen</h1>
+      <h4 class="teamname">team spartans</h4>
+      <div id="popdel1">
+        <h2>140 bpm</h2>
+        <img id="hjerterunner" src="/Ikoner/puls-orange.png" alt="hjerte" />
+      </div>
+      <div id="popdel2">
+        <h2>122km/t</h2>
+        <img id="mandrunner" src="/Ikoner/running-man.png" alt="runner" />
+      </div>
+      <button class="buttonpop" onclick="window.open();">Se mere..</button>
+    </div>
+
+    <script src="popup.js" charset="utf-8"></script>
+  </body>
+</html>

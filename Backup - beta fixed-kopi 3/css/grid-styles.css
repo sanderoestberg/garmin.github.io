@@ -1,0 +1,174 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 20%;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: #f3f3f3;
+  box-shadow: 0px 8px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header a img {
+  max-height: 6vh;
+  padding-top: 5px;
+}
+
+_______________________________________________________________________________
+  article {
+  margin: 12px 0px;
+  z-index: -2;
+}
+
+article h1 {
+  color: #007cc3;
+  font-size: 2em;
+  text-align: center;
+  padding: 0;
+  margin: 8px 0px;
+}
+
+article p {
+  margin: 0;
+  padding: 0;
+}
+
+.team-grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.team-grid p {
+  font-size: 18px;
+}
+
+.team-grid p span {
+  color: #007cc3;
+  font-weight: bold;
+}
+
+.person-grid {
+  display: grid;
+  grid-template-columns: 15% 32% 32% 15%;
+  grid-row-gap: 15px;
+  grid-column-gap: 2%;
+  margin-top: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.person-grid p {
+  font-size: 12px;
+}
+
+.person-grid p span {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.person-grid img {
+  margin: auto;
+}
+
+.tekst-grid {
+  display: grid;
+  grid-template-columns: 17% 66% 17%;
+}
+
+.tekst-grid p {
+  margin: 10px 0px;
+  font-size: 12px;
+}
+
+.info-logo-grid {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+
+.info-logo-grid p {
+  color: #007cc3;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.info-logo-grid img {
+  justify-self: center;
+}
+
+.info-grid {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.info-grid p {
+  font-size: 0.9em;
+}
+.info-grid p span {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.text-align {
+  text-align: center;
+  color: #007cc3;
+}
+
+.info-grid a {
+  color: #007cc3;
+}
+
+.forhindring-grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+
+.forhindring-grid p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.forhindring-grid h1 {
+  text-align: left;
+}
+
+.completion-grid {
+  display: grid;
+  grid-template-columns: 15% 32% 32% 15%;
+  grid-row-gap: 15px;
+  grid-column-gap: 2%;
+  margin: 20px 0px;
+}
+.completion-grid p {
+  text-align: center;
+}
+
+.completion-grid p span {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.completion {
+  justify-self: center;
+  align-self: center;
+}
+
+article video {
+  margin-top: 15px;
+}
